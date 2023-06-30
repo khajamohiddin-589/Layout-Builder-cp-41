@@ -7,6 +7,8 @@
 .left-navbar-container {
   width: 30%;
   background-color: #e2e8f0;
+  padding: 0;
+  margin: 0;
 }
 .left-nav-heading {
   padding-left: 15px;
@@ -25,7 +27,6 @@
   width: 40%;
 }
 .content-text {
-  padding-left: 15px;
   width: 60%;
   color: #64748b;
   font-size: 24px;
@@ -57,4 +58,24 @@
   width: 40%;
   height: 100%;
   color: white;
+}
+@media screen and (max-width: 576px) {
+  .body-container-second {
+    height: 30vh;
+  }
+  .content-text {
+    font-size: 11px;
+    width: 100%;
+  }
+  .left-nav-heading {
+    font-size: 10px;
+  }
+  .left-nav-item {
+    font-size: 9px;
+    padding-left: 15px;
+  }
+  .right-nav-item {
+    height: 70px;
+    font-size: 10px;
+  }
 }

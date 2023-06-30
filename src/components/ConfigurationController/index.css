@@ -27,3 +27,15 @@
   align-items: center;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 576px) {
+  .layout-heading {
+    font-size: 20px;
+  }
+  .checkbox {
+    height: 15px;
+    width: 15px;
+  }
+  .label {
+    font-size: 10px;
+  }
+}

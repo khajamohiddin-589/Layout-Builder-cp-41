@@ -7,3 +7,8 @@
   font-family: 'Roboto';
   margin-bottom: 3px;
 }
+@media screen and (max-width: 576px) {
+  .header-container {
+    font-size: 10px;
+  }
+}
